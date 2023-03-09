@@ -131,7 +131,7 @@ button:nth-child(2) {
 
 footer {
     position: absolute;
-    top: 58.7rem;
+    top: 47rem;
 }
 
 @media screen and (max-width: 31.25rem) {
