@@ -15,7 +15,7 @@ yesBtn.addEventListener('click', function() {
     shandow.classList.add('animation')
 })
 
-noBtn.addEventListener('mouseover', () => {
+noBtn.addEventListener('click', () => {
     const i = Math.floor(Math.random() * (wapperRect.width - noBtnRect.width) + 1)
     const j = Math.floor(Math.random() * (wapperRect.height - noBtnRect.height) + 1)
 
