@@ -13,6 +13,8 @@ yesBtn.addEventListener('click', function() {
     question.textContent = "I Love You :)"
     imgCore.classList.add('animation')
     shandow.classList.add('animation')
+    noBtn.style.top = ''
+    noBtn.style.left = ''
 })
 
 noBtn.addEventListener('click', () => {
@@ -21,5 +23,6 @@ noBtn.addEventListener('click', () => {
 
     noBtn.style.top = j + "px";
     noBtn.style.left = i + "px";
+    console.log(i, j)
 })
 
